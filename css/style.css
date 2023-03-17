@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-container{
+    background-color: beige;
+    max-width: 350px;
+    max-height: 550px;
+    text-align: center;
+}
+.input{
+    height: 1.5rem;
+    border-radius: 10px;
+    border: solid black 1.5px;
+}
+.submit{
+    margin-top: 20px;
+    border: solid black 1px;
+    height: 1.5rem;
+    background-color: transparent;
+    border-radius: 8px;
+}
+.submit:hover{
+    background-color: green;
+    border-color: greenyellow;
+    color: white;
+}
